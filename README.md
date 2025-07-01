@@ -116,14 +116,14 @@ npx nx dep-graph
 
 | Action           | Command                                            |
 |------------------|----------------------------------------------------|
-| Crear nueva app  | `nx g @nx/react:application app-name`              |
-| Crear nueva lib  | `nx g @nx/react:library lib-name`                  |
-| Crear componente | `nx g @nx/react:component Comp --project=lib-name` |
-| Levantar app     | `nx serve app-name`                                |
-| Test unitario    | `nx test project-name`                             |
+| Create new app   | `nx g @nx/react:application app-name`              |
+| Create new lib   | `nx g @nx/react:library lib-name`                  |
+| Create component | `nx g @nx/react:component Comp --project=lib-name` |
+| Raise app        | `nx serve app-name`                                |
+| Unit test        | `nx test project-name`                             |
 | Lint             | `nx lint project-name`                             |
 | Build            | `nx build app-name`                                |
-| Ver dependencias | `nx dep-graph`                                     |
-| Formatear código | `nx format:write`                                  |
+| View dependencies| `nx dep-graph`                                     |
+| Format code      | `nx format:write`                                  |
 
 ---
