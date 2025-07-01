@@ -53,7 +53,7 @@ npx nx generate @nx/react:library ui
 
 ## 5. 🧩 Use the Library in the App
 
-En `apps/store/src/app/app.tsx`:
+In `apps/store/src/app/app.tsx`:
 
 ```tsx
 import { Button } from '@my-org/ui';
